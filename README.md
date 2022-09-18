@@ -26,7 +26,7 @@ This jira application(Issue tracker application) has following feature
 - Edit Issue
 - Add Comment
 - CRUD operation for projects
--- Add project
--- View all project
--- Edit project
--- Delete project
+  - Add project
+  - View all project
+  - Edit project
+  - Delete project
