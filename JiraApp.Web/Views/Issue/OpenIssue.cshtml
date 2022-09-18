@@ -1,0 +1,118 @@
+﻿@model JiraApp.Data.Models.Issue
+@*@model Tuple<JiraApp.Data.Models.Issue, JiraApp.Data.Models.IssueComment>*@
+
+
+<link rel="stylesheet" href="~/css/issue.css" asp-append-version="true" />
+
+@if (Model == null)
+{
+    <div class="col-4 align-content-center">
+        <label>Please enter a issue number</label> <br />
+        <input id="issueNumber" class="form-control" onkeyup="issueNumberChanged()" maxlength="100" placeholder="Enter issue number"/>
+        <label id="wrongIssueNumber" class="text-danger">Please enter a valid issue number!</label>
+        <button id="getIssueNumberBtn" class="form-control btn btn-success mt-3 p-2" onclick="getIssue()">Open Issue</button>
+    </div>
+}
+else
+{
+    <div class="col-12">
+        <div class="col-9 leftPanel">
+            <div class="mainContent">
+
+                <div class="">
+                    @if(Model.IssueType == "Feature")
+                    {
+                       <a><i class="issueTypeIcon bi-bookmark-plus-fill" title="Issue Type: Feature"></i></a>
+                    }
+                    else if(Model.IssueType == "Bug")
+                    {
+                        <a><i class="issueTypeIcon bi-bug-fill" title="Issue Type: Bug"></i></a>
+                    }
+
+                    <b class="issueTitle">@Model.Title</b>
+                </div>
+
+                <p>@Model.Description</p>
+              
+            </div>
+            <div class="commentSection">
+
+                <h4>All Comments</h4>
+
+                <div class="newComment">
+                    <textarea  id="commentTextbox" class="comment-textbox form-control"></textarea>
+                    <button class="addCommentBtn btn btn-secondary" onclick="addCommentBtnClicked()" type="button">Add a comment</button>
+                </div>
+
+                <div class="oldComment">
+                    @Html.Partial("Comments", Model)
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="col-3 rightPanel">
+            <strong>Status: </strong>
+            <label>@Model.Status</label> <br /> <br />
+            <strong>Priority: </strong>
+            @if(Model.Priority == "Blocker")
+            {
+                <a><i class="dashboardIcon bi-dash-circle-fill"></i></a>
+            }
+            else if(Model.Priority == "High")
+            {
+                <a><i class="dashboardIcon bi-arrow-up-square-fill"></i></a>
+            }
+            else if(Model.Priority == "Medium")
+            {
+                <a><i class="dashboardIcon bi-arrow-down-right-square-fill"></i></a>
+            }
+            else if(Model.Priority == "Low")
+            {
+                <a><i class="dashboardIcon bi-arrow-down-square-fill"></i></a>
+            }
+            <label>@Model.Priority</label> <br /> <br />
+            <strong>Assignee: </strong>
+            <a><i class="bi-person-circle"></i></a>
+            @if(string.IsNullOrEmpty(Model.Assignee))
+            {
+                <label>None</label>
+            }
+            else
+            {
+                <label>@Model.Assignee</label>
+            }
+            
+            <br /> <br />
+            <strong>Created By: </strong>
+            <a><i class="bi-person-circle"></i></a>
+            <label>@Model.CreatedBy</label> <br /> <br />
+            <strong>Created Date: </strong>
+            <label>@Model.CreatedDate.ToShortDateString()</label> <br /> <br />
+
+            @if(!string.IsNullOrEmpty(Model.ModifiedBy))
+            {
+                <strong>Modified By: </strong>
+                <a><i class="bi-person-circle"></i></a>
+                <label>@Model.ModifiedBy</label> <br /> <br />
+                <strong>Modified Date: </strong>
+                <label>@Model.ModifiedDate?.ToShortDateString()</label> <br /> <br />   
+            }
+
+            <input id="issueID" value="@Model.IssueId" type="hidden" />
+            <input id="issueKey" value="@Model.IssueNo" type="hidden" />
+
+            <div class="editIssueBtnDiv">
+                <button class="editIssueBtn btn btn-primary" onclick="editIssueBtnClicked()" type="button">Edit Issue</button>
+            </div>
+        </div>
+    </div>
+}
+
+<script src="~/js/issue.js" asp-append-version="true"></script>
+
+<script>
+    var verifyIssueNumberURl = '@Url.Action("VerifyIssueNumber", "Issue")';
+    var openIssueURL = '@Url.Action("OpenIssue", "Issue")';
+</script>

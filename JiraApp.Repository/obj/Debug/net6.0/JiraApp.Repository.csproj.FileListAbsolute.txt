@@ -1,0 +1,17 @@
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\bin\Debug\net6.0\JiraApp.Repository.deps.json
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\bin\Debug\net6.0\JiraApp.Repository.runtimeconfig.json
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\bin\Debug\net6.0\JiraApp.Repository.dll
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\bin\Debug\net6.0\JiraApp.Repository.pdb
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\bin\Debug\net6.0\JiraApp.Data.dll
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\bin\Debug\net6.0\JiraApp.Data.pdb
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\obj\Debug\net6.0\JiraApp.Repository.csproj.AssemblyReference.cache
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\obj\Debug\net6.0\JiraApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\obj\Debug\net6.0\JiraApp.Repository.AssemblyInfoInputs.cache
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\obj\Debug\net6.0\JiraApp.Repository.AssemblyInfo.cs
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\obj\Debug\net6.0\JiraApp.Repository.csproj.CoreCompileInputs.cache
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\obj\Debug\net6.0\JiraApp.Repository.csproj.CopyComplete
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\obj\Debug\net6.0\JiraApp.Repository.dll
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\obj\Debug\net6.0\refint\JiraApp.Repository.dll
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\obj\Debug\net6.0\JiraApp.Repository.pdb
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\obj\Debug\net6.0\JiraApp.Repository.genruntimeconfig.cache
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Repository\obj\Debug\net6.0\ref\JiraApp.Repository.dll

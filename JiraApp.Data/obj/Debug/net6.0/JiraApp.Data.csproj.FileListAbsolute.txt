@@ -1,0 +1,14 @@
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Data\bin\Debug\net6.0\JiraApp.Data.deps.json
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Data\bin\Debug\net6.0\JiraApp.Data.runtimeconfig.json
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Data\bin\Debug\net6.0\JiraApp.Data.dll
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Data\bin\Debug\net6.0\JiraApp.Data.pdb
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Data\obj\Debug\net6.0\JiraApp.Data.csproj.AssemblyReference.cache
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Data\obj\Debug\net6.0\JiraApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Data\obj\Debug\net6.0\JiraApp.Data.AssemblyInfoInputs.cache
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Data\obj\Debug\net6.0\JiraApp.Data.AssemblyInfo.cs
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Data\obj\Debug\net6.0\JiraApp.Data.csproj.CoreCompileInputs.cache
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Data\obj\Debug\net6.0\JiraApp.Data.dll
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Data\obj\Debug\net6.0\refint\JiraApp.Data.dll
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Data\obj\Debug\net6.0\JiraApp.Data.pdb
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Data\obj\Debug\net6.0\JiraApp.Data.genruntimeconfig.cache
+D:\Documents\PersonalProject\JiraAppWithEFAndOA\JiraApp.Data\obj\Debug\net6.0\ref\JiraApp.Data.dll

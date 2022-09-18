@@ -1,0 +1,17 @@
+﻿@model JiraApp.Data.Models.Issue
+
+
+<div class="mainCommentsDiv">
+    <div>
+    @foreach (var comment in Model.IssueComments)
+    {
+        <div>
+            <div class="commentTitle">
+                <a><i class="bi-person-circle"></i></a>
+                <label>@comment.CreatedBy - @comment.CreatedDate.ToString("MM/dd/yyyy hh:mm:ss tt")</label>
+            </div>
+            <p>@comment.CommentText</p>
+        </div>
+    }
+    </div>
+</div>
